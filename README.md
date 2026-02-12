@@ -4,10 +4,9 @@ Crie um arquivo README.md com o seguinte conteúdo:
 # Calculador de IMC - Relatório do Projeto
 
 ## Integrantes do Grupo
-- Aluno 1
-- Aluno 2
-- Aluno 3
-- Aluno 4
+- Tiago Carvalho Gonçalves
+- Jonatas Pitta Chaves
+- Rafael Evangelista Almeida Santos
 
 ## Objetivo
 Criar um sistema web para calcular o Índice de Massa Corporal (IMC) com
