@@ -1,22 +1,30 @@
-Calculadora de IMC - Relatório do Projeto
-Integrantes do Grupo
+    Calculadora de IMC - Relatório do Projeto
+         Integrantes do Grupo
 Tiago Carvalho Gonçalves - Desenvolvedor FullStack
 Jonatas Pitta Chaves - Arquiteto de Testes
 Rafael Evangelista Almeida Santos - Gerente de Projeto
-Objetivo
+
+
+
+                                Objetivo
 Criar um sistema web para calcular o Índice de Massa Corporal (IMC) com testes unitários.
 Estrutura do Projeto
 O projeto é composto por três arquivos principais conforme detalhado abaixo:
 
 index.php: Página web com formulário para entrada de dados.
+
 IMC.php: Classe contendo a lógica para o cálculo do IMC.
+
 IMCTest.php: Arquivo com os testes unitários para a classe IMC.php.
+
+                               Detalhe
 Bugs Encontrados e Corrigidos
 O seguinte bug foi identificado durante a fase de testes e corrigido:
 Bug 1: Cálculo Incorreto do IMC
-Detalhe
-Descrição
-Localização
+                      
+
+                         Descrição
+
 Função calcularIMC() em IMC.php
 Problema
 A fórmula estava incorreta: return $peso / $altura; (deveria ser altura ao quadrado)
