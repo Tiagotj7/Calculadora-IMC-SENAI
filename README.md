@@ -1,43 +1,52 @@
-    Calculadora de IMC - Relatório do Projeto
-         Integrantes do Grupo
-Tiago Carvalho Gonçalves - Desenvolvedor FullStack
-Jonatas Pitta Chaves - Arquiteto de Testes
-Rafael Evangelista Almeida Santos - Gerente de Projeto
+```markdown
+# Calculador de IMC - Relatório do Projeto
 
+## Integrantes do Grupo
 
+- Tiago Carvalho Gonçalves - Desenvolvedor FullStack  
+- Jonatas Pitta Chaves - Arquiteto de Testes  
+- Rafael Evangelista Almeida Santos - Gerente de Projeto  
 
-                                Objetivo
+## Objetivo
+
 Criar um sistema web para calcular o Índice de Massa Corporal (IMC) com testes unitários.
-Estrutura do Projeto
-O projeto é composto por três arquivos principais conforme detalhado abaixo:
 
-index.php: Página web com formulário para entrada de dados.
+## Estrutura do Projeto
 
-IMC.php: Classe contendo a lógica para o cálculo do IMC.
+- `index.php`: Página web com formulário  
+- `IMC.php`: Classe com lógica de cálculo  
+- `IMCTest.php`: Testes unitários  
 
-IMCTest.php: Arquivo com os testes unitários para a classe IMC.php.
+## Bugs Encontrados e Corrigidos
 
-                               Detalhe
-Bugs Encontrados e Corrigidos
-O seguinte bug foi identificado durante a fase de testes e corrigido:
-Bug 1: Cálculo Incorreto do IMC
-                      
+### Bug 1: Cálculo Incorreto do IMC
 
-                         Descrição
+- **Localização:** Função `calcularIMC()` em `IMC.php`  
+- **Problema:**  
+  ```php
+  return $peso / $altura;
+  ```
+  (deveria ser altura ao quadrado)  
+- **Teste que Falhou:** Teste 1  
+- **Solução:**  
+  ```php
+  return $peso / ($altura * $altura);
+  ```
 
-Função calcularIMC() em IMC.php
-Problema
-A fórmula estava incorreta: return $peso / $altura; (deveria ser altura ao quadrado)
-Teste que Falhou
-Teste 1
-Correção
-A função foi atualizada para: return $peso / ($altura * $altura);
+### Bug 2: [Descrever se houver outro bug encontrado]
 
-Bug 2: [Descrever se houver outro bug encontrado]
-[Informações sobre o Bug 2]
-Como Executar
-Para garantir a qualidade e o funcionamento correto da lógica de cálculo, a execução dos testes unitários é recomendada.
-Testes Unitários
-Para executar os testes unitários, utilize o seguinte comando no terminal (assumindo que o PHP esteja instalado e configurado):
+- **Localização:** [Função e arquivo onde o bug foi identificado]  
+- **Problema:** [Descrição do comportamento incorreto observado]  
+- **Teste que Falhou:** [Qual teste apontou o erro]  
+- **Solução:** [O que foi alterado para corrigir o bug]  
 
+## Como Executar
+
+### Testes Unitários
+
+No diretório do projeto, executar:
+
+```bash
 php IMCTest.php
+```
+```
