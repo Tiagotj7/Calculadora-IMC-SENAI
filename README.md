@@ -4,9 +4,9 @@ Crie um arquivo README.md com o seguinte conteúdo:
 # Calculador de IMC - Relatório do Projeto
 
 ## Integrantes do Grupo
-- Tiago Carvalho Gonçalves
-- Jonatas Pitta Chaves
-- Rafael Evangelista Almeida Santos
+- Tiago Carvalho Gonçalves - Desenvolvedor FullStack
+- Jonatas Pitta Chaves - Arquiteto de Testes
+- Rafael Evangelista Almeida Santos - Gerente de Projeto
 
 ## Objetivo
 Criar um sistema web para calcular o Índice de Massa Corporal (IMC) com
