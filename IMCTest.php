@@ -4,7 +4,6 @@ require_once 'IMC.php';
 
 $imc = new IMC();
 
-
 function executarTeste($descricao, $condicao) {
     if ($condicao) {
         echo " PASSOU: $descricao\n";
@@ -13,22 +12,21 @@ function executarTeste($descricao, $condicao) {
     }
 }
 
-
-$resultadoIMC = $imc->calcular(70, 1.75);
+$resultadoIMC = $imc->calcularIMC(70, 1.75);
 executarTeste(
     "Cálculo correto do IMC (70kg, 1.75m)",
-    round($resultadoIMC, 2) == 22.86
+    $resultadoIMC === 22.86
 );
 
 
-$classificacao = $imc->classificar(22.86);
+$classificacao = $imc->classificarIMC(22.86);
 executarTeste(
     "Classificação Peso normal",
     $classificacao === "Peso normal"
 );
 
 
-$classificacao = $imc->classificar(27);
+$classificacao = $imc->classificarIMC(27);
 executarTeste(
     "Classificação Sobrepeso",
     $classificacao === "Sobrepeso"
@@ -54,6 +52,4 @@ executarTeste(
     "Validação altura inválida (3.5m)",
     $validacao === false
 );
-
-?>
 
