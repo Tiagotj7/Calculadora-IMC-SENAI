@@ -1,9 +1,12 @@
+-- Cria o banco de dados
 CREATE DATABASE IF NOT EXISTS calculador_imc
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_general_ci;
 
+-- Usa o banco de dados
 USE calculador_imc;
 
+-- Cria a tabela de registros de IMC
 CREATE TABLE IF NOT EXISTS registros_imc (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NULL,
