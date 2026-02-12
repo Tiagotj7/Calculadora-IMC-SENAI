@@ -1,6 +1,13 @@
 # 🧮 CALCULADORA DE IMC EM PHP
 
 ### Aplicação Web com PHP Orientado a Objetos, MySQL e Boas Práticas de Desenvolvimento
+---
+
+## Integrantes do Grupo
+
+- Tiago Carvalho Gonçalves - Desenvolvedor FullStack  
+- Jonatas Pitta Chaves - Arquiteto de Testes  
+- Rafael Evangelista Almeida Santos - Gerente de Projeto  
 
 ---
 
