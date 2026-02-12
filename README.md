@@ -1,5 +1,4 @@
-```markdown
-# Calculador de IMC - Relatório do Projeto
+```Calculador de IMC - Relatório do Projeto
 
 ## Integrantes do Grupo
 
@@ -48,5 +47,4 @@ No diretório do projeto, executar:
 
 ```bash
 php IMCTest.php
-```
 ```
